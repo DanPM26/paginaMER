@@ -447,15 +447,17 @@ header{
     display: grid;
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(6,auto);
+    gap:5px; 
     justify-content: center;
+    padding: 0px;
 }
 .img{
-    width: 150px;
+    width: 180px;
     height: 150px;
 }
 .flip-card {
     background-color: transparent;
-    width: 150px;
+    width: 180px;
     height: 150px;
     perspective: 1000px;
   }
@@ -662,7 +664,5 @@ header{
   height: 330px;
   padding-bottom: 20px;
 }
-.dipticoMER{
-  width: 540px;
-}
+
 }
