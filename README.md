@@ -1,1 +1,1 @@
-Este página es un intento de recrear y reorganizar la página del instituto.
+Este página es el primer intento de recrear y reorganizar la página del instituto.

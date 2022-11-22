@@ -447,6 +447,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(6,auto);
+    justify-content: center;
 }
 .img{
     width: 150px;
@@ -618,11 +619,12 @@ header{
 
   }
   .head-text{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     color: white;
   }
+ 
 
   .texto-back{
     display: flex;
