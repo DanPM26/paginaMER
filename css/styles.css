@@ -1,0 +1,666 @@
+body{
+    margin: 0px;
+}
+/* header y nav*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+
+}
+#navbar{
+    display: flex;
+    margin: 20px;
+}
+.mer-text{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-style: oblique;
+    color: white;
+}
+
+.person{
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 45px;
+   padding: 5px;  
+}
+.person:hover{
+    background-color: rgb(6, 89, 6);
+}
+/*Masthead*/
+.masthead{
+    background-image: url("../assets/masthead.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.masthead-inicio{
+    margin: auto;
+    border: 3px solid green;
+    border-radius: 50px;
+    background-color: rgb(250, 247, 247,0.4);
+
+}
+.inicio{
+    width: 0;
+    padding: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2rem;
+    margin: 0 auto;
+    border-right: 0.15em solid #204b19;
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+/*About*/
+.about{
+ display: flex;
+ padding: 20px;
+}
+.about-1{
+ width: 50%;
+ margin-top: 5%;
+}
+.title{
+    text-align: center;
+}
+.text{
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.about-2{
+width: 50%;
+}
+
+/*Flipcard*/
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(4,auto);
+    gap: 10px;
+}
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 150px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .texto-front{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 15%;
+    padding: 3px;
+    background-color: aliceblue;
+    opacity: .5;
+  }
+
+  .texto-front2{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 10%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+  }
+  .texto-front3{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front4{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 10%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+   
+  }
+  .texto-front5{
+    position: absolute;
+    color: #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front6{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front7{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 15%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px
+  }
+  .texto-front8{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front9{
+    position: absolute;
+    color: #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front10{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front11{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 8%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+  }
+  .texto-front12{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  
+  .flip-card-back {
+    background-color: #008000;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 5px;
+
+  }
+  .head-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+
+  .texto-back{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+  }
+  .texto-back:hover{
+    color:  rgb(41, 77, 49);
+  }
+
+.card-text-back1{
+   margin-top: 30%;
+  }
+/*Eventos*/
+.events{
+    width: 100%;
+}
+.eventos{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+/*Carrusel*/
+.carousel-inner{
+    height: 400px;
+}
+.carousel{
+padding-bottom: 50px;
+}
+ 
+/*Video & diptico*/
+.info{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.informacion{
+  display: flex;
+   width: 100%;
+   padding-bottom: 50px;
+}
+.video{
+  width: 50%;
+  height: 315px;
+  display: flex;
+  justify-content: center;
+}
+.diptico{
+  width: 50%;
+  height: 315px;
+  display: flex;
+  justify-content: center;
+}
+.dip{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.dip:hover .over{
+  opacity: 1;
+}
+.over{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(143, 172, 123);
+}
+.tex{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.click{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.click:hover{
+  color: #1e471e;
+}
+/*Footer*/
+footer{
+margin: 0px;
+background-color: #008000;
+justify-content: center;
+}
+.pie{
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  padding: 20px;
+}
+.title3{
+  text-align: center;
+  color: #ddd;
+  font-size: 15px;
+
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 700px){
+body{
+    margin: 0px;
+}
+/*header y nav*/
+header{
+    display: flex;
+    flex-direction: column;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+
+}
+#navbar-right{
+     display: flex;
+     justify-content: center;
+}
+.mer{
+ margin: 0 auto;
+}
+.mer-text{
+ text-align: center;
+}
+/*Masthead*/
+.masthead{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.inicio{
+    text-align: center;
+}
+.masthead-inicio{
+    margin: auto;
+    width: 100%;
+}
+.inicio{
+    font-size: 15px;
+}
+/*About*/
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.about-1{
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.text{
+    padding-right: 10px;
+}
+.about-2{
+    width: 100%;
+}
+/*Card- flip*/
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(6,auto);
+}
+.img{
+    width: 150px;
+    height: 150px;
+}
+.flip-card {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .texto-front{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 15%;
+    padding: 3px;
+    background-color: aliceblue;
+    opacity: .5;
+  }
+
+  .texto-front2{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 10%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+  }
+  .texto-front3{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front4{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 10%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+   
+  }
+  .texto-front5{
+    position: absolute;
+    color: #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front6{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front7{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 15%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px
+  }
+  .texto-front8{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front9{
+    position: absolute;
+    color: #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front10{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  .texto-front11{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 8%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+  }
+  .texto-front12{
+    position: absolute;
+    color:  #000000 ;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: aliceblue;
+    opacity: .5;
+    padding: 3px;
+    font-size: 25px;
+  }
+  
+  .flip-card-back {
+    background-color: #008000;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 5px;
+
+  }
+  .head-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+
+  .texto-back{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+  }
+  .texto-back:hover{
+    color:  rgb(41, 77, 49);
+  }
+
+  .card-text-back1{
+   margin-top: 30%;
+  }
+/*Eventos*/
+  .eventos{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.title2{
+    text-align: center;
+}
+/*Diptico y video*/
+.informacion{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin:0px;
+}
+.video{
+  width: 100%;
+  padding-bottom: 20px;
+  height: 330px;
+  padding-bottom: 20px;
+}
+.dipticoMER{
+  width: 540px;
+}
+}
