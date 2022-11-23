@@ -668,9 +668,20 @@ header{
   height: 330px;
   padding-bottom: 20px;
 }
+.dip{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
 .dipticoMER{
   width: 560px;
   height:330px ;
 }
+
+.tex{
+  top: 50%;
+  left: 65%;
+}
+
 
 }
